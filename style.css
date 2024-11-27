@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image1{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding: 0;
+}
+.mytext{
+    background-color: black;
+    height: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+}
+.dropdown-menu{
+    background-color: red;
+}
+.dropdown-item{
+    color: white;
+}
+.container-heading{
+    display: flex;
+}
+.myparagraph{
+    width: 50%;
+    padding: 100px;
+    color: black;
+    font-size: 2px0px;
+
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+.navbar-toggler-icon i{
+    color: white;
+}
+@media (min-width:768) and (max-width:1024px){
+    .container-heading{
+        display: block;
+    }
+    .mytext{
+        width:100%;
+    }
+    .myparagraph{
+        width:100%;
+    }
+
+}
+@media(max-width:768px){
+    .container-heading{
+        display: block;
+    }
+    .mytext{
+        width:100%;    
+    }
+    .myparagraph{
+        width: 100%;
+    }
+}
